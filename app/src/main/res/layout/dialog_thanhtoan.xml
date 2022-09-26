@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:background="@drawable/shape_edit_sign"
+    android:gravity="center"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Xác nhận thanh toán"
+        android:textSize="30dp"
+        android:textStyle="bold"
+        android:textColor="#f00"
+        android:id="@+id/dialog_txt_xacnhanthanhtoan"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="1000 like"
+        android:textSize="25dp"
+        android:textStyle="italic"
+        android:textColor="#f00"
+        android:layout_marginTop="10dp"
+        android:id="@+id/dialog_txt_soluong"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Số tiền: "
+        android:textStyle="italic"
+        android:textSize="25dp"
+        android:layout_marginTop="10dp"
+        android:textColor="#f00"
+        android:id="@+id/dialog_txt_sotien"/>
+
+    <EditText
+        android:textColor="#f00"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:hint="Ghi chú ( có thể bỏ trống )"
+        android:textSize="20dp"
+        android:background="@drawable/shape_edit_sign"
+        android:layout_marginTop="10dp"
+        android:id="@+id/dialog_ghichu"/>
+
+    <EditText
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:hint="Mật khẩu"
+        android:background="@drawable/shape_edit_sign"
+        android:layout_marginTop="10dp"
+        android:textColor="#f00"
+        android:id="@+id/dialog_matkhau_thanhtoan"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center_horizontal">
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Thanh toán"
+            android:textSize="20dp"
+            android:background="@drawable/shape_button_sign"
+            android:textColor="#f00"
+            android:layout_marginTop="10dp"
+            android:id="@+id/dialog_thanhtoan"/>
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Hủy"
+            android:textSize="20dp"
+            android:background="@drawable/shape_button_sign"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="10dp"
+            android:textColor="#f00"
+            android:id="@+id/dialog_huy"/>
+
+    </LinearLayout>
+
+
+</LinearLayout>

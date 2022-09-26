@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:background="@drawable/shape_edit_sign"
+    android:gravity="center"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Xác minh mật khẩu"
+        android:textSize="30dp"
+        android:textColor="#f00"
+        android:textStyle="bold"
+        android:id="@+id/dialog_txt_xacminh"/>
+
+    <EditText
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/shape_edit_sign"
+        android:hint="Mật khẩu của bạn"
+        android:textColor="#f00"
+        android:inputType="textPassword"
+        android:id="@+id/dialog_matkhau"/>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="OK"
+            android:background="@drawable/shape_button_sign"
+            android:textColor="#f00"
+            android:textStyle="bold"
+            android:layout_marginTop="10dp"
+            android:id="@+id/dialog_btok"/>
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/shape_button_sign"
+            android:text="HỦY"
+            android:id="@+id/dialog_bthuy"
+            android:textStyle="bold"
+            android:layout_marginTop="10dp"
+            android:textColor="#f00"
+            android:layout_marginLeft="10dp"/>
+
+    </LinearLayout>
+
+</LinearLayout>

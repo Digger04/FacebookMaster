@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Activity.chat_admin">
+
+    <androidx.appcompat.widget.Toolbar
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        app:title="Chat Admin"
+        app:titleTextColor="#f00"
+        android:background="#18F01E"
+        android:id="@+id/toolbar"/>
+
+    <LinearLayout
+        android:padding="5dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:layout_marginTop="?attr/actionBarSize"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:src="#111"
+            android:id="@+id/avata_admin"/>
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:onClick="chat_all"
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:src="#111"
+            android:layout_marginLeft="5dp"
+            android:id="@+id/avata_all"/>
+
+    </LinearLayout>
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="135dp">
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:layout_marginRight="5dp"
+            android:layout_marginLeft="5dp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginBottom="?attr/actionBarSize"
+            android:id="@+id/list_tinnhan"/>
+
+        <ImageView
+            android:onClick="send_img"
+            android:layout_width="45dp"
+            android:layout_height="45dp"
+            android:src="@drawable/ic_image_black"
+            android:layout_gravity="bottom"
+            android:layout_margin="5dp"
+            android:id="@+id/send_img"/>
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:background="@drawable/shape_edit_send_tn"
+            android:layout_gravity="bottom"
+            android:layout_marginLeft="?attr/actionBarSize"
+            android:layout_marginBottom="5dp"
+            android:layout_marginRight="5dp">
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="?attr/actionBarSize"
+                android:hint="Nhập tin nhắn"
+                android:layout_gravity="center_vertical"
+                android:layout_marginTop="5dp"
+                android:layout_marginRight="?attr/actionBarSize"
+                android:id="@+id/edit_nhaptn"/>
+
+            <ImageView
+                android:onClick="send_tn"
+                android:layout_width="35dp"
+                android:layout_height="35dp"
+                android:src="@drawable/ic_send_black_24dp"
+                android:layout_gravity="right"
+                android:id="@+id/send_tn"/>
+
+        </FrameLayout>
+
+    </FrameLayout>
+
+</FrameLayout>

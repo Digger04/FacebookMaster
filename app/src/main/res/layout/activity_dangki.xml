@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    tools:context=".Activity.dangki">
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <androidx.appcompat.widget.Toolbar
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            android:background="#F8E42E"
+            app:titleTextColor="#f00" />
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_marginLeft="10pt"
+                android:layout_marginTop="10dp"
+                app:cardCornerRadius="20dp"
+                android:layout_marginRight="10pt"
+                android:background="#D5C1C1">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:text="Đăng kí"
+                    android:textColor="#78C123"
+                    android:textSize="25dp" />
+            </androidx.cardview.widget.CardView>
+
+        </FrameLayout>
+
+    </FrameLayout>
+
+    <LinearLayout
+        android:background="@drawable/background_home"
+        android:layout_width="match_parent"
+        android:gravity="center"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Chào mừng đến với"
+            android:textSize="30dp"
+            android:textStyle="bold"
+            android:textColor="#74AF2E"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Facebook Master"
+            android:layout_marginTop="10dp"
+            android:textSize="35dp"
+            android:textStyle="bold"
+            android:textColor="#74AF2E"/>
+
+        <TextView
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:text="Tên tài khoản"
+            android:layout_marginTop="10dp"
+            android:textSize="20dp"/>
+
+        <EditText
+            android:background="@drawable/shape_edt_grey"
+            android:layout_width="300dp"
+            android:layout_height="70dp"
+            android:inputType="text"
+            android:id="@+id/ten"/>
+
+        <TextView
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:text="Mật khẩu"
+            android:textSize="20dp"/>
+
+        <EditText
+            android:background="@drawable/shape_edt_grey"
+            android:layout_width="300dp"
+            android:layout_height="70dp"
+            android:inputType="textPassword"
+            android:id="@+id/matkhau"/>
+
+        <TextView
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:text="Số điện thoại"
+            android:layout_marginTop="10dp"
+            android:textSize="20dp"/>
+
+        <EditText
+            android:background="@drawable/shape_edt_grey"
+            android:layout_width="300dp"
+            android:layout_height="70dp"
+            android:inputType="number"
+            android:id="@+id/sdt"/>
+
+        <Button
+            android:onClick="dangki"
+            android:background="@drawable/shape_bottom_blue"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="30dp"
+            android:textColor="#FFFFFF"
+            android:padding="10dp"
+            android:text="ĐĂNG "
+            android:layout_marginTop="10dp"
+            android:id="@+id/dangki"/>
+
+    </LinearLayout>
+
+</LinearLayout>

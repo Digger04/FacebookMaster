@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    tools:context=".Activity.tai_khoan">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+           <FrameLayout
+               android:layout_width="match_parent"
+               android:layout_height="match_parent">
+
+               <androidx.appcompat.widget.Toolbar
+                   android:layout_width="match_parent"
+                   android:layout_height="?attr/actionBarSize"
+                   android:id="@+id/toolbar"
+                   app:title="Tài khoản"
+                   android:background="#F8E42E"
+                   app:titleTextColor="#f00"/>
+
+               <ImageView
+                   android:onClick="click_anhbia"
+                   android:layout_marginTop="?attr/actionBarSize"
+                   android:layout_width="match_parent"
+                   android:layout_height="240dp"
+                   android:src="#f00"
+                   android:id="@+id/anhbia"/>
+
+               <de.hdodenhof.circleimageview.CircleImageView
+                   android:layout_width="150dp"
+                   android:layout_height="150dp"
+                   android:layout_gravity="center_horizontal"
+                   android:src="@android:drawable/sym_def_app_icon"
+                   android:layout_marginTop="170dp"
+                   android:id="@+id/avata"
+                   android:onClick="add_avata"/>
+
+               <ImageView
+                   android:onClick="add_bia_image"
+                   android:layout_width="30dp"
+                   android:layout_height="30dp"
+                   android:layout_marginTop="?attr/actionBarSize"
+                   android:src="@drawable/add_image"
+                   android:layout_marginLeft="5dp"
+                   android:id="@+id/add_imgbia"/>
+
+                  <RelativeLayout
+                      android:layout_width="match_parent"
+                      android:layout_height="match_parent"
+                      android:layout_marginTop="320dp">
+
+                      <TextView
+                          android:id="@+id/ten"
+                          android:layout_width="match_parent"
+                          android:layout_height="wrap_content"
+                          android:gravity="center_horizontal"
+                          android:text="NICK NAME"
+                          android:textColor="#f00"
+                          android:textSize="30dp"
+                          android:textStyle="bold" />
+
+                      <TextView
+                          android:id="@+id/sodu"
+                          android:layout_width="match_parent"
+                          android:layout_height="wrap_content"
+                          android:layout_below="@id/ten"
+                          android:gravity="center_horizontal"
+                          android:text="Số dư: "
+                          android:textColor="#436B13"
+                          android:textSize="20dp"
+                          android:textStyle="italic" />
+
+                      <TextView
+                          android:id="@+id/time"
+                          android:layout_width="match_parent"
+                          android:layout_height="wrap_content"
+                          android:layout_below="@+id/sodu"
+                          android:layout_marginLeft="10dp"
+                          android:layout_marginTop="10dp"
+                          android:text="Ngày tham gia: "
+                          android:textColor="#f000"
+                          android:textSize="15dp"
+                          android:textStyle="italic" />
+
+                      <TextView
+                          android:id="@+id/sdt"
+                          android:layout_width="wrap_content"
+                          android:layout_height="wrap_content"
+                          android:layout_below="@+id/time"
+                          android:layout_marginLeft="10dp"
+                          android:layout_marginTop="5dp"
+                          android:text="Số điện thoại: "
+                          android:textColor="#f000"
+                          android:textSize="15dp"
+                          android:textStyle="italic" />
+
+                      <TextView
+                          android:id="@+id/fb"
+                          android:layout_width="wrap_content"
+                          android:layout_height="wrap_content"
+                          android:layout_below="@+id/sdt"
+                          android:layout_marginLeft="10dp"
+                          android:layout_marginTop="5dp"
+                          android:text="Facebook: "
+                          android:textColor="#f000"
+                          android:textSize="15dp"
+                          android:textStyle="italic" />
+
+                      <TextView
+                          android:id="@+id/diachi"
+                          android:layout_width="wrap_content"
+                          android:layout_height="wrap_content"
+                          android:layout_below="@id/fb"
+                          android:layout_marginLeft="10dp"
+                          android:layout_marginTop="5dp"
+                          android:text="Địa chỉ: "
+                          android:textColor="#f000"
+                          android:textSize="15dp"
+                          android:textStyle="italic" />
+
+                      <TextView
+                          android:onClick="edit_inf"
+                          android:layout_width="wrap_content"
+                          android:layout_height="wrap_content"
+                          android:text="Chỉnh sửa thông tin..."
+                          android:layout_below="@id/diachi"
+                          android:textSize="15dp"
+                          android:layout_marginLeft="10dp"
+                          android:textColor="#42B4E7"
+                          android:textStyle="italic"
+                          android:id="@+id/edit"/>
+
+                      <TextView
+                          android:id="@+id/txt_nhatki"
+                          android:layout_width="match_parent"
+                          android:layout_height="wrap_content"
+                          android:layout_below="@+id/edit"
+                          android:gravity="center_horizontal"
+                          android:text="Lịch sử"
+                          android:textColor="#f00"
+                          android:textSize="20dp"
+                          android:textStyle="bold" />
+
+                      <androidx.recyclerview.widget.RecyclerView
+                          android:id="@+id/list_lichsu"
+                          android:layout_width="match_parent"
+                          android:layout_height="wrap_content"
+                          android:layout_below="@id/txt_nhatki"
+                          android:layout_marginStart="10dp"
+                          android:layout_marginTop="10dp"
+                          android:layout_marginEnd="10dp"
+                          android:layout_marginBottom="10dp" />
+
+                  </RelativeLayout>
+
+           </FrameLayout>
+
+    </ScrollView>
+
+</FrameLayout>

@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.facebookmaster">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.CAMERA" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/icon_fb"
+        android:label="@string/app_name"
+        android:roundIcon="@drawable/icon_fb"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".Activity.CaiDat"
+            android:exported="false" />
+        <activity android:name=".Activity.chat_admin" />
+        <activity android:name=".Activity.chat" />
+        <activity android:name=".Activity.TangFollow" />
+        <activity android:name=".Activity.TangShare" />
+        <activity android:name=".Activity.Batdau_donhang" />
+        <activity android:name=".Activity.edit_donhang" />
+        <activity android:name=".Activity.Webview_check" />
+        <activity android:name=".Activity.Naptien" />
+        <activity android:name=".Activity.QuanLy" />
+        <activity android:name=".Activity.tanglike" />
+        <activity android:name=".Activity.tai_khoan" />
+        <activity android:name=".Activity.trangchu" />
+        <activity android:name=".Activity.dangki" />
+        <activity android:name=".Activity.MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

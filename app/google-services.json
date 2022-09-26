@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "933097445399",
+    "firebase_url": "https://facebookmaster-e2c1c.firebaseio.com",
+    "project_id": "facebookmaster-e2c1c",
+    "storage_bucket": "facebookmaster-e2c1c.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:933097445399:android:7e055e6205f795bd8be452",
+        "android_client_info": {
+          "package_name": "com.example.facebookmaster"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "933097445399-o67okfnq66un50q0nm48cnr3pcnfo7vm.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.facebookmaster",
+            "certificate_hash": "66f3654064061490a1ec187fa4fc61c6e524282d"
+          }
+        },
+        {
+          "client_id": "933097445399-k8idrdarjttoqlqoa09ugud3ki0c7r7e.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA2rQtTSNgJtPWSelnXl4DFUF5y6co8p-Y"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "933097445399-k8idrdarjttoqlqoa09ugud3ki0c7r7e.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

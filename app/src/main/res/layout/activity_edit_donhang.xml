@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Activity.edit_donhang">
+
+    <androidx.appcompat.widget.Toolbar
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="#FFE700"
+        android:id="@+id/toolbar"
+        app:titleTextColor="#f00"
+        app:title="Chỉnh sửa đơn hàng"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:gravity="center">
+
+        <EditText
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:background="@drawable/shape_edit_tanglike"
+            android:layout_marginBottom="10dp"
+            android:hint="Mã đơn hàng"
+            android:textColor="#f00"
+            android:inputType="number"
+            android:id="@+id/madon"/>
+
+        <EditText
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:hint="Số lượng hiện tại"
+            android:textColor="#f00"
+            android:inputType="number"
+            android:background="@drawable/shape_edit_sign"
+            android:id="@+id/edit_hientai"/>
+
+        <EditText
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:hint="Số lượng sau khi hoàn thành"
+            android:background="@drawable/shape_edit_sign"
+            android:layout_marginTop="10dp"
+            android:textColor="#f00"
+            android:id="@+id/edit_hoanthanh"
+            android:inputType="number"/>
+
+        <EditText
+            android:layout_marginTop="10dp"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:background="@drawable/shape_edit_sign"
+            android:id="@+id/edit_ghichu"
+            android:textColor="#f00"
+            android:hint="Ghi chú"/>
+
+        <EditText
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:background="@drawable/shape_edit_sign"
+            android:layout_marginTop="20dp"
+            android:hint="Bảo hành"
+            android:id="@+id/edit_baohanh"/>
+
+        <Button
+            android:onClick="click_xong"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="XONG"
+            android:layout_marginTop="10dp"
+            android:textStyle="bold"
+            android:textSize="30dp"
+            android:background="@drawable/shape_button_sign"
+            android:textColor="#f00"
+            android:id="@+id/edit_xong"/>
+
+    </LinearLayout>
+
+</LinearLayout>

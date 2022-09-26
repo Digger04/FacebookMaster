@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <TextView
+        android:gravity="center_horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Ngày, giờ"
+        android:textColor="#f00"
+        android:id="@+id/time"/>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:id="@+id/avata"
+            android:layout_marginTop="7dp"
+            android:src="#111"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="2dp"
+            android:layout_marginTop="3dp"
+            android:layout_marginRight="100dp"
+            android:background="@drawable/backgroud_layout_send_message"
+            android:textSize="20dp"
+            android:text="Xin chào tất cả mọi người"
+            android:textColor="#FFFFFF"
+            android:id="@+id/tinnhan"/>
+
+    </LinearLayout>
+
+</LinearLayout>
