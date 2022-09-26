@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/APC-LTN/Documents/FacebookMaster/app/src/main/res/layout/activity_cai_dat.xml" value="0.2425249169435216" />
+        <entry key="..\:/Users/APC-LTN/Documents/FacebookMaster/app/src/main/res/layout/activity_dangki.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/APC-LTN/Documents/FacebookMaster/app/src/main/res/layout/activity_main.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/APC-LTN/Documents/FacebookMaster/app/src/main/res/layout/activity_naptien.xml" value="0.22" />
+        <entry key="..\:/Users/APC-LTN/Documents/FacebookMaster/app/src/main/res/layout/activity_quan_ly.xml" value="0.27870370370370373" />
+        <entry key="..\:/Users/APC-LTN/Documents/FacebookMaster/app/src/main/res/layout/activity_tang_follow.xml" value="0.25" />
+        <entry key="..\:/Users/APC-LTN/Documents/FacebookMaster/app/src/main/res/layout/activity_tang_share.xml" value="0.17314814814814813" />
+        <entry key="..\:/Users/APC-LTN/Documents/FacebookMaster/app/src/main/res/layout/activity_tanglike.xml" value="0.17314814814814813" />
+        <entry key="..\:/Users/APC-LTN/Documents/FacebookMaster/app/src/main/res/layout/activity_trangchu.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/APC-LTN/Downloads/FacebookMaster/app/src/main/res/drawable/shape_bt_doimk.xml" value="0.1" />
+        <entry key="..\:/Users/APC-LTN/Downloads/FacebookMaster/app/src/main/res/drawable/shape_cai_dat.xml" value="0.1" />
+        <entry key="..\:/Users/APC-LTN/Downloads/FacebookMaster/app/src/main/res/drawable/shape_edit_tanglike.xml" value="0.1" />
+        <entry key="..\:/Users/APC-LTN/Downloads/FacebookMaster/app/src/main/res/layout/activity_cai_dat.xml" value="0.18" />
+        <entry key="..\:/Users/APC-LTN/Downloads/FacebookMaster/app/src/main/res/layout/activity_chat.xml" value="0.1" />
+        <entry key="..\:/Users/APC-LTN/Downloads/FacebookMaster/app/src/main/res/layout/activity_main.xml" value="0.1762917933130699" />
+        <entry key="..\:/Users/APC-LTN/Downloads/FacebookMaster/app/src/main/res/layout/activity_tanglike.xml" value="0.1762917933130699" />
+        <entry key="..\:/Users/APC-LTN/Downloads/FacebookMaster/app/src/main/res/layout/activity_trangchu.xml" value="0.3625" />
+        <entry key="app/src/main/res/drawable/ic_baseline_share_24.xml" value="0.134375" />
+        <entry key="app/src/main/res/drawable/shape_bgr_follow.xml" value="0.2361111111111111" />
+        <entry key="app/src/main/res/drawable/shape_bgr_hotro.xml" value="0.2361111111111111" />
+        <entry key="app/src/main/res/drawable/shape_bgr_like.xml" value="0.2361111111111111" />
+        <entry key="app/src/main/res/drawable/shape_bgr_share.xml" value="0.134375" />
+        <entry key="app/src/main/res/drawable/shape_bottom_blue.xml" value="0.19722222222222222" />
+        <entry key="app/src/main/res/drawable/shape_bt_doimk.xml" value="0.134375" />
+        <entry key="app/src/main/res/drawable/shape_edit_tanglike.xml" value="0.2361111111111111" />
+        <entry key="app/src/main/res/drawable/shape_edt_grey.xml" value="0.17962962962962964" />
+        <entry key="app/src/main/res/drawable/shape_toolbar.xml" value="0.2361111111111111" />
+        <entry key="app/src/main/res/layout/activity_dangki.xml" value="0.165" />
+        <entry key="app/src/main/res/layout/activity_main.xml" value="0.25" />
+        <entry key="app/src/main/res/layout/activity_tai_khoan.xml" value="0.25" />
+        <entry key="app/src/main/res/layout/activity_tang_follow.xml" value="0.11822916666666666" />
+        <entry key="app/src/main/res/layout/activity_tang_share.xml" value="0.11822916666666666" />
+        <entry key="app/src/main/res/layout/activity_tanglike.xml" value="0.25" />
+        <entry key="app/src/main/res/layout/activity_trangchu.xml" value="0.25" />
+        <entry key="app/src/main/res/layout/dialog_banggia.xml" value="0.11822916666666666" />
+        <entry key="app/src/main/res/layout/dialog_signup_addavata.xml" value="0.165" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="11" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>
